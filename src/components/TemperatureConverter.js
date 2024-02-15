@@ -13,13 +13,13 @@ const TemperatureConverter = () => {
     }
 
     const handleCelsiusChange = (event) => {
-        const value = event.target.value; // Define value here
+        const value = event.target.value; 
         setCelsius(value);
         setFahrenheit(value === '' ? '' : convertToFahrenheit(value));
       };
       
       const handleFahrenheitChange = (event) => {
-        const value = event.target.value; // Define value here
+        const value = event.target.value; 
         setFahrenheit(value);
         setCelsius(value === '' ? '' : convertToCelsius(value));
       };
