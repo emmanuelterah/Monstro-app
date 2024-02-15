@@ -8,7 +8,7 @@ import sun from '../assests/image/sun.jpg';
 
 
 const BackgroundDisplay = ({selectedCity}) => {
-const [image, setImage] = useState('cloud');
+const [image, setImage] = useState(cloud);
   
 
 useEffect(() => {
@@ -31,9 +31,9 @@ useEffect(() => {
 
   
     return (
-        
-      <img src={image} alt="cities_image" className='h-screen w-full fixed left-0 top-0 -z-[10]' />
-      
+      <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: -10 }}> 
+      <img src={image} alt="cities_image" className='h-screen w-full' />
+      </div>
       )
   }
   
