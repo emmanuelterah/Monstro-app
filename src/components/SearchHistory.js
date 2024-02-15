@@ -17,14 +17,14 @@ const SearchHistory = () => {
       }
     };
 
-    fetchData();
+fetchData();
   }, []);
 
   return (
     <div>
       <h2>Search History</h2>
       <ul>
-        {searches.map((search, index) => (
+        {searches && searches.map((search, index) => (
           <li key={index}>{search.city}, {search.country}</li>
         ))}
       </ul>
