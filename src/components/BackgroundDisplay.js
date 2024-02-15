@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 
-import clear from '../assests/image/clear.jpg';
-import cloud from '../assests/image/cloud.jpg';
-import partlycloudy from '../assests/image/partly cloudy.jpg';
-import rain from '../assests/image/rain.jpg';
-import sun from '../assests/image/sun.jpg';
+import cloud from "../assets/image/cloud.jpg"
+import rain from "../assets/image/rain.jpg";
+import sun from "../assets/image/sun.jpg";
+import clear from "../assets/image/clear.jpg";
+import partlycloudy from "../assets/image/partly cloudy.jpg";
 
 
 const BackgroundDisplay = ({selectedCity}) => {
