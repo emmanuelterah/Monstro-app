@@ -1,13 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import day from "../assets/icons/day.png";
 
 function NavBar() {
   return (
     <div className="navbar-container">
-      <FontAwesomeIcon icon={faCoffee} className="coffee-icon" />
+      <img  src={day} alt="Day Icon" />
       <ul>
       <NavLink className="samoa" to="/">Home</NavLink>
       <NavLink className="samoa" to="/About">About</NavLink>

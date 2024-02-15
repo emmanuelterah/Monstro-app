@@ -8,7 +8,7 @@
   }
   
   .coffee-icon {
-    font-size: 36px;
+    font-size: 24px;
     margin-right: 80px;
   }
   
@@ -16,6 +16,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-emphasis-color: white;
   }
   
   .samoa {
@@ -26,6 +27,7 @@
     transition: all .5s ease-in-out;
     justify-content: space-around;
     text-align: end;
+    color: white;
   }
 
   .samoa:hover {
