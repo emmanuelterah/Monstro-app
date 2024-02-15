@@ -28,6 +28,7 @@ const App = () => {
 
   return (
     <div className="App">
+
       <BackgroundDisplay selectedCity={selectedCity} />
       <WeatherForm handleSubmit={handleSubmit} />
       <WeatherCard selectedCity={selectedCity} />

@@ -25,7 +25,6 @@ useEffect(() => {
       } else if (description.includes('partly cloudy')) {
         setImage(partlycloudy);
       }
-    
     }
   }, [selectedCity]);
 
