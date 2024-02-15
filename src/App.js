@@ -4,6 +4,7 @@ import WeatherCard from './components/WeatherCard';
 import WeatherForm from './components/WeatherForm';
 import SearchHistory from './components/SearchHistory';
 import TemperatureConverter from './components/TemperatureConverter';
+import About from './components/About';
 
 const App = () => {
   const [selectedCity, setSelectedCity] = useState(null);
@@ -27,11 +28,12 @@ const App = () => {
 
   return (
     <div className="App">
-       <BackgroundDisplay selectedCity={selectedCity} />
+      <BackgroundDisplay selectedCity={selectedCity} />
       <WeatherForm handleSubmit={handleSubmit} />
       <WeatherCard selectedCity={selectedCity} />
       <SearchHistory />
       <TemperatureConverter />
+      <About/>
     </div>
   );
 };
