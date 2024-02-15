@@ -27,6 +27,7 @@ const TemperatureConverter = () => {
 
     return (
         <div className="temperature-converter">
+            <h3>Temperature Converter</h3>
             <label>
                 Celsius:
                 <input type="number" value={celsius} onChange={handleCelsiusChange} />
