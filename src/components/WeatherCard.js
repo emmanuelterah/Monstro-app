@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
-import clear from '../assests/icons/clear.png';
-import cloud from '../assests/icons/cloud.png';
-import partlycloudy from '../assests/icons/partly cloudy.png';
-import rain from '../assests/icons/rain.png';
-import sun from '../assests/icons/sun.png';
+import clear from '../assets/image/clear.jpg';
+import partlycloudy from '../assets/image/partly cloudy.jpg';
+import cloud from '../assets/image/cloud.jpg';
+import rain from '../assets/image/rain.jpg';
+import sun from '../assets/image/sun.jpg';
 
 
 const WeatherCard = () => {
