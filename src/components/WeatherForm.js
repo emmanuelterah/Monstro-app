@@ -4,7 +4,7 @@ import './Form.css';
 
 
 
-const WeatherForm = ({ handleSubmit }) => {
+const WeatherForm = ({ handleSubmissions }) => {
 
 
   return (
@@ -33,7 +33,7 @@ const WeatherForm = ({ handleSubmit }) => {
         return errors;
       }}
       onSubmit={(values, { setSubmitting,resetForm }) => {
-        handleSubmit(values, setSubmitting, resetForm);
+        handleSubmissions(values, setSubmitting, resetForm);
         setSubmitting(false);
       }}
     >
@@ -79,7 +79,7 @@ const WeatherForm = ({ handleSubmit }) => {
             // Add a new forecast entry
             values.forecasts.push({ date: '', temperature_min: '', temperature_max: '', description: '' });
           }}>Add Forecast</button>
-          <button className='weather-form button' type="submit" disabled={isSubmitting} onSubmit={handleSubmit} >
+          <button className='weather-form button' type="submit" disabled={isSubmitting} onSubmit={handleSubmissions} >
             Submit
           </button>
         </Form>
