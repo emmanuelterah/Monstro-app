@@ -26,12 +26,8 @@ const App = () => {
   };
 
   return (
-    <div>
-      <BackgroundDisplay selectedCity={selectedCity} />
-      <WeatherForm handleSubmit={handleSubmit} />
-      <WeatherCard selectedCity={selectedCity} />
-      <SearchHistory />
-      <TemperatureConverter />
+    <div className="App">
+      
     </div>
   );
 };
