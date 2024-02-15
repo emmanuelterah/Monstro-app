@@ -6,7 +6,7 @@ const SearchHistory = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:3000/cities'); // Adjust the path
+        const response = await fetch('http://localhost:3000/cities');
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }
