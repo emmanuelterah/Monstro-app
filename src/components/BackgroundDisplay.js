@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
-import clear from '../assets/image/clear.jpg';
-import sun from '../assets/image/sun.jpg';
-import cloud from '../assets/image/cloud.jpg';
-import rain from '../assets/image/rain.jpg';
-import partlycloudy from '../assets/image/partly cloudy.jpg';
+
+import clear from '../assests/image/clear.jpg';
+import cloud from '../assests/image/cloud.jpg';
+import partlycloudy from '../assests/image/partly cloudy.jpg';
+import rain from '../assests/image/rain.jpg';
+import sun from '../assests/image/sun.jpg';
+
 
 const BackgroundDisplay = ({selectedCity}) => {
-const [image, setImage] = useState('cloud');
+const [image, setImage] = useState(cloud);
   
 
 useEffect(() => {
@@ -29,9 +31,9 @@ useEffect(() => {
 
   
     return (
-        
-      <img src={image} alt="cities_image" className='h-screen w-full fixed left-0 top-0 -z-[10]' />
-      
+      <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: -10 }}> 
+      <img src={image} alt="cities_image" className='h-screen w-full' />
+      </div>
       )
   }
   
