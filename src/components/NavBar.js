@@ -14,6 +14,7 @@ function NavBar() {
       <NavLink className="samoa" to="/">Home</NavLink>
       <NavLink className="samoa" to="/About">About</NavLink>
       <NavLink className="samoa" to="/TemperatureConverter">TemperatureConverter</NavLink>
+      <NavLink className="samoa" to="/WeatherComparison">Weather Comparison</NavLink>
       </ul>
     <FontAwesomeIcon icon={faCloudMoon} className="moon-icon"/>
     </div>

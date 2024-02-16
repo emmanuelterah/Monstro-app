@@ -9,6 +9,7 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import {Routes, Route} from "react-router-dom";
 import './App.css';
+import WeatherComparison from './components/WeatherComparison';
 
 const App = () => {
 
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/About' element={<About/>}/>
         <Route path='/TemperatureConverter' element={<TemperatureConverter/>}/>
+        <Route path='/WeatherComparison' element={<WeatherComparison />}/>
       </Routes>
       
     </div>

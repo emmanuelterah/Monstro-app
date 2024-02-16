@@ -21,7 +21,7 @@
   min-height: 100vh;
 } */
 
-.container {
+  .container {
   display: flex;
   justify-content: space-between;
   padding-top: 5rem;
@@ -34,4 +34,36 @@
 
 .weather-form {
   flex: 1;
+} 
+
+/* body {
+  margin: 0;
+  padding: 0;
 }
+
+.container {
+  display: flex;
+  padding: 5rem;
+  overflow: hidden;
+}
+
+.weather-card,
+.weather-form {
+  flex: 1;
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .weather-card,
+  .weather-form {
+    flex: 1;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+} */
+

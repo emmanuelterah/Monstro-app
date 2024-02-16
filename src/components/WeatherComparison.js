@@ -26,7 +26,8 @@ const WeatherComparison = () => {
   }, []);
 
   return (
-    <div>
+    <div className='overall'>
+    <div className='comp-container'>
       <h2>Weather Comparison</h2>
       <div className="comparison-grid">
         {cities.map((city, index) => (
@@ -37,6 +38,7 @@ const WeatherComparison = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

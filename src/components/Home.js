@@ -1,7 +1,7 @@
 import BackgroundDisplay from './BackgroundDisplay';
 import WeatherCard from './WeatherCard';
 import WeatherForm from './WeatherForm';
-import SearchHistory from './SearchHistory';
+// import SearchHistory from './SearchHistory';
 import React, { useState } from 'react';
 
 const Home = () => {
@@ -53,7 +53,6 @@ const Home = () => {
       <WeatherCard selectedCity={selectedCity} />
       <WeatherForm handleSubmit={handleSubmit} handleSubmissions={handleSubmissions} />
       </div>
-      <SearchHistory />
     </div>
   );
 };
