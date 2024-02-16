@@ -28,7 +28,8 @@
           "temperature_max": 29,
           "description": "Partly cloudy"
         }
-      ]
+      ],
+      "id": "9e27"
     },
     {
       "name": "Addis Ababa",
@@ -58,7 +59,8 @@
           "temperature_max": 24,
           "description": "Partly cloudy"
         }
-      ]
+      ],
+      "id": "6387"
     },
     {
       "name": "Dar es Salaam",
@@ -88,7 +90,8 @@
           "temperature_max": 34,
           "description": "Partly cloudy"
         }
-      ]
+      ],
+      "id": "7867"
     },
     {
       "name": "Kampala",
@@ -118,7 +121,8 @@
           "temperature_max": 32,
           "description": "Sunny"
         }
-      ]
+      ],
+      "id": "f5b1"
     },
     {
       "name": "Kigali",
@@ -148,7 +152,8 @@
           "temperature_max": 28,
           "description": "Partly cloudy"
         }
-      ]
+      ],
+      "id": "bd1e"
     },
     {
       "name": "Mogadishu",
@@ -178,7 +183,8 @@
           "temperature_max": 36,
           "description": "Partly cloudy"
         }
-      ]
+      ],
+      "id": "f90f"
     },
     {
       "name": "Djibouti City",
@@ -208,7 +214,8 @@
           "temperature_max": 38,
           "description": "Partly cloudy"
         }
-      ]
+      ],
+      "id": "c43c"
     },
     {
       "name": "Khartoum",
@@ -238,7 +245,8 @@
           "temperature_max": 42,
           "description": "Partly cloudy"
         }
-      ]
+      ],
+      "id": "3413"
     },
     {
       "name": "Asmara",
@@ -268,7 +276,8 @@
           "temperature_max": 29,
           "description": "Mostly Cloudy"
         }
-      ]
+      ],
+      "id": "6b7d"
     },
     {
       "name": "Bujumbura",
@@ -298,7 +307,8 @@
           "temperature_max": 30,
           "description": "Sunny"
         }
-      ]
+      ],
+      "id": "d7bd"
     },
     {
       "name": "Dodoma",
@@ -328,7 +338,8 @@
           "temperature_max": 34,
           "description": "Partly cloudy"
         }
-      ]
+      ],
+      "id": "3183"
     },
     {
       "name": "Mombasa",
@@ -358,7 +369,8 @@
           "temperature_max": 32,
           "description": "Sunny"
         }
-      ]
+      ],
+      "id": "7457"
     },
     {
       "name": "Harare",
@@ -388,7 +400,8 @@
           "temperature_max": 29,
           "description": "Sunny"
         }
-      ]
+      ],
+      "id": "4931"
     },
     {
       "name": "Maputo",
@@ -418,7 +431,8 @@
           "temperature_max": 33,
           "description": "Partly cloudy"
         }
-      ]
+      ],
+      "id": "41cd"
     },
     {
       "name": "Lusaka",
@@ -448,7 +462,8 @@
           "temperature_max": 35,
           "description": "Partly cloudy"
         }
-      ]
+      ],
+      "id": "7df6"
     },
     {
       "name": "Lilongwe",
@@ -478,7 +493,8 @@
           "temperature_max": 32,
           "description": "Sunny"
         }
-      ]
+      ],
+      "id": "a9d0"
     },
     {
       "name": "Gaborone",
@@ -508,7 +524,8 @@
           "temperature_max": 36,
           "description": "Partly cloudy"
         }
-      ]
+      ],
+      "id": "6762"
     },
     {
       "name": "Juba",
@@ -538,7 +555,8 @@
           "temperature_max": 37,
           "description": "Partly cloudy"
         }
-      ]
+      ],
+      "id": "2965"
     },
     {
       "name": "Arusha",
@@ -568,7 +586,8 @@
           "temperature_max": 31,
           "description": "Sunny"
         }
-      ]
+      ],
+      "id": "4c35"
     },
     {
       "name": "Hargeisa",
@@ -598,7 +617,8 @@
           "temperature_max": 32,
           "description": "Partly cloudy"
         }
-      ]
+      ],
+      "id": "831a"
     },
     {
       "name": "Maseru",
@@ -628,7 +648,8 @@
           "temperature_max": 30,
           "description": "Clear"
         }
-      ]
+      ],
+      "id": "bec3"
     },
     {
       "name": "Antananarivo",
@@ -658,7 +679,8 @@
           "temperature_max": 29,
           "description": "Sunny"
         }
-      ]
+      ],
+      "id": "fa46"
     },
     {
       "name": "Blantyre",
@@ -688,7 +710,8 @@
           "temperature_max": 33,
           "description": "Partly cloudy"
         }
-      ]
+      ],
+      "id": "7a66"
     },
     {
       "name": "Comoros City",
@@ -718,7 +741,8 @@
           "temperature_max": 30,
           "description": "Sunny"
         }
-      ]
+      ],
+      "id": "7073"
     },
     {
       "name": "Seychelles",
@@ -748,7 +772,8 @@
           "temperature_max": 33,
           "description": "Clear"
         }
-      ]
+      ],
+      "id": "0c22"
     },
     {
       "name": "Moroni",
@@ -778,7 +803,8 @@
           "temperature_max": 31,
           "description": "Partly cloudy"
         }
-      ]
+      ],
+      "id": "0d7a"
     },
     {
       "name": "Zanzibar City",
@@ -808,7 +834,8 @@
           "temperature_max": 32,
           "description": "Sunny"
         }
-      ]
+      ],
+      "id": "aa4f"
     },
     {
       "id": "0775",
@@ -877,6 +904,32 @@
           "date": "2024-02-05",
           "temperature_min": "20",
           "temperature_max": "30",
+          "description": "hot"
+        }
+      ]
+    },
+    {
+      "id": "9e0e",
+      "city": "Queens",
+      "country": "Jamaica",
+      "forecasts": [
+        {
+          "date": "2024-02-02",
+          "temperature_min": "20",
+          "temperature_max": "30",
+          "description": "hot"
+        }
+      ]
+    },
+    {
+      "id": "5618",
+      "city": "Queens",
+      "country": "Jamaica",
+      "forecasts": [
+        {
+          "date": "2024-01-31",
+          "temperature_min": "78",
+          "temperature_max": "55",
           "description": "hot"
         }
       ]

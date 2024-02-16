@@ -7,7 +7,7 @@ const WeatherForm = ({ handleSubmissions }) => {
 
 
   return (
-    <div className="card container text-bg-info mb-3 bg-opacity-10 py-5" style={{width: '25rem', height: '20rem'}}>
+    <div className="card container text-bg-info mb-3 bg-opacity-10 py-5" style={{width: '25rem', height: '20rem', marginTop: '8%'}}>
     <Formik
       initialValues={{
         city: '',

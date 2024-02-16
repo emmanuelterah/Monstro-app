@@ -7,50 +7,19 @@ import React, { useState } from 'react';
 const Home = () => {
 
   const [selectedCity, setSelectedCity] = useState(null);
+// const [searchHistory, setSearchHistory] = useState([]);
 
-  const handleSubmit = async (values, actions) => {
-    try {
-      const response = await fetch(`http://localhost:8001/weather?city=${values.city}&country=${values.country}`);
-      if (!response.ok) {
-        throw new Error('Failed to fetch weather data');
-      }
-
-  const data = await response.json();
-  setSelectedCity(data);
-} catch (error) {
-  console.error('Error fetching weather data:', error);
-} finally {
-  actions.resetForm();
-}
-  };
-
-  const handleSubmissions = async (values, setSubmitting, resetForm) => {
-    try {
-      const response = await fetch('http://localhost:8001/cities', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(values),
-      });
-  
-  if (!response.ok) {
-    throw new Error(`Failed to submit data: ${response.status} - ${response.statusText}`);
-  }
-  
-  resetForm();
-  console.log('Data submitted successfully:', values);
-    } catch (error) {
-      console.error('Error submitting data:', error);
-    } finally {
-      setSubmitting(false);
-    }
+  // Function to handle form submission and update search history.
+  function handleSubmit(city) {
+    console.log('Submitting city: ', city);
+    setSelectedCity(city);
+    // setSearchHistory([...searchHistory, city]);
   }
   return (
     <div>
       <BackgroundDisplay />
       <WeatherCard selectedCity={selectedCity} />
-      <WeatherForm handleSubmit={handleSubmit} handleSubmissions={handleSubmissions} />
+      {/* <WeatherForm handleSubmit={handleSubmit} handleSubmissions={handleSubmissions} /> */}
     </div>
   );
 };
