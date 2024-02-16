@@ -24,8 +24,10 @@ const About = () => {
 
       <h2>How to Use</h2>
       <p>
+        <div id="what">
         Enter the name of the city and its country in the search form to fetch the latest weather information.
         Explore the 5-day forecast for a detailed view.
+        </div>
       </p>
     </div>
   );

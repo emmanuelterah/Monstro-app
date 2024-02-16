@@ -1,8 +1,8 @@
 .temperature-converter {
     padding: 20px;
     border-radius: 10px;
-    border: 4px solid hsl(195, 52%, 86%, 0.45);
-    box-shadow: 0 4px 6px #fac2c2de;
+    border: 8px solid hwb(198 80% 0% / 0.651);
+    box-shadow: 0 5px 8px #fac2c2de;
     text-align: center;
     width: 300px;
     margin: 0 auto; 

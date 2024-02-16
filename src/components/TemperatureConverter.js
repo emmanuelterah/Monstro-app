@@ -27,7 +27,7 @@ const TemperatureConverter = () => {
       
 
     return (
-        <div className="temperature-converter text-bg-info mb-3 bg-opacity-25">
+        <div className="temperature-converter">
             <h3>Temperature Converter</h3>
             <label>
                 Celsius:
