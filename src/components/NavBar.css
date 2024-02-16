@@ -1,13 +1,14 @@
 .navbar-container {
-    background-color: #333;
-    color: #fff;
-    padding: 36px;
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    padding: 5px 10%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   
-  .coffee-icon {
+  .logo {
     font-size: 24px;
     margin-right: 80px;
   }
@@ -16,23 +17,28 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-emphasis-color: white;
+    text-emphasis-color: #000;
+    text-align: center;
   }
   
   .samoa {
     margin-left: auto; 
-    display: inline;
-    margin-right: 40px;
+    display: inline-block;
+    margin: 18px 40px;
     text-decoration: none;
-    transition: all .5s ease-in-out;
+    transition: color 0.9s ease-in-out;
     justify-content: space-around;
     text-align: end;
-    color: white;
+    color: #000;
+    font-size: 1.2rem;
   }
 
   .samoa:hover {
-    color: aqua ;
+    color: blueviolet ;
   }
   
- 
+ .logo{
+    width: 175px;
+    cursor: pointer;
+ }
   

@@ -880,6 +880,32 @@
           "description": "hot"
         }
       ]
+    },
+    {
+      "id": "793a",
+      "city": "Nairobi",
+      "country": "Kenya",
+      "forecasts": [
+        {
+          "date": "2024-02-12",
+          "temperature_min": "20",
+          "temperature_max": "30",
+          "description": "hot"
+        }
+      ]
+    },
+    {
+      "id": "7de0",
+      "city": "New York",
+      "country": "USA",
+      "forecasts": [
+        {
+          "date": "2024-01-29",
+          "temperature_min": "20",
+          "temperature_max": "78",
+          "description": "Rain"
+        }
+      ]
     }
   ]
 }

@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import day from "../assets/icons/day.png";
+import night from "../assets/icons/night.png";
 
 function NavBar() {
   return (
@@ -14,7 +15,7 @@ function NavBar() {
       <NavLink className="samoa" to="/TemperatureConverter">TemperatureConverter</NavLink>
       </ul>
 
-    <img src="" className="darkMode"></img>
+    <img src={night} className="dark-mode"></img>
     </div>
   );
 }
