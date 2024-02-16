@@ -49,10 +49,8 @@ const Home = () => {
   return (
     <div>
       <BackgroundDisplay />
-      <div className='container'>
       <WeatherCard selectedCity={selectedCity} />
       <WeatherForm handleSubmit={handleSubmit} handleSubmissions={handleSubmissions} />
-      </div>
     </div>
   );
 };
