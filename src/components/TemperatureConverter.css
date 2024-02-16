@@ -1,0 +1,40 @@
+.temperature-converter {
+    padding: 20px;
+    border-radius: 10px;
+    border: 8px solid hwb(198 80% 0% / 0.651);
+    box-shadow: 0 5px 8px #fac2c2de;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto; 
+    margin-top: 12%;
+
+  }
+  
+  .temperature-converter h3 {
+    color: #333;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .temperature-converter label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .temperature-converter input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .temperature-converter input[type="number"]:focus {
+    outline: none;
+    border-color: #4d94ff;
+    box-shadow: 0 0 5px rgba(77, 148, 255, 0.75);
+  }
+  
