@@ -1,16 +1,19 @@
 .navbar-container {
     background-color: hwb(0 100% 0% / 0.650);
+    border: 2px solid hwb(198 80% 0% / 0.651);
+    box-shadow: 0 5px 8px #12464dde;
     color: #000;
     width: 100%;
-    padding: 5px 10%;
+    height: 2%;
+    padding: 5px 5%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .moon-icon {
     color: #888; 
-    font-size: 48px; 
+    font-size: 32px; 
   }
   
   .logo {
@@ -29,18 +32,21 @@
   ul .samoa {
     margin-left: auto; 
     display: inline-block;
-    margin: 18px 40px;
+    margin: 10px 40px;
     text-decoration: none;
     transition: color 0.9s ease-in-out;
     justify-content: space-around;
     text-align: end;
     color: #000;
-    font-size: 1.2rem;
+    font-size: 22px;
   }
 
   ul .samoa:hover {
     color: white ;
     font-weight: 600;
+    border: 2px solid hwb(198 80% 0% / 0.651);
+    text-decoration-color: 0 5px 8px #12464dde;
+    padding: 8px 21px;
   }
   
  .logo{

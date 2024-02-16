@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='about-container '>
       <h1>Weather App</h1>
-      <p>
+      <p id="what">
         The Weather App is a simple application that provides real-time weather information for different cities around the world.
       </p>
 

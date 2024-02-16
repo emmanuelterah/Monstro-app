@@ -15,12 +15,16 @@
     border: 2px solid hwb(198 80% 0% / 0.651);
     box-shadow: 0 4px 6px rgba(119, 106, 106, 0.438); 
     box-shadow: 0 4px 6px #285d8ffa;
-    padding: 40px;
+    padding: 22px;
   }
   
   h1 {
     font-size: 25px;
     font-weight: 600;
+    border: 2px solid hwb(198 80% 0% / 0.651);
+    box-shadow: 0 4px 6px rgba(119, 106, 106, 0.438); 
+    box-shadow: 0 4px 6px #285d8ffa;
+    padding: 3px 18px;
   }
 
   h2 {
@@ -43,7 +47,7 @@
   ul {
     list-style-type: none;
     padding: 0;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
   }
   
   li {
