@@ -1,0 +1,938 @@
+{
+  "cities": [
+    {
+      "name": "Nairobi",
+      "country": "Kenya",
+      "current": {
+        "temperature": 25,
+        "description": "Clear",
+        "humidity": 60,
+        "wind_speed": 5
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 24,
+          "temperature_max": 27,
+          "description": "Partly cloudy"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 23,
+          "temperature_max": 28,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 25,
+          "temperature_max": 29,
+          "description": "Partly cloudy"
+        }
+      ],
+      "id": "9e27"
+    },
+    {
+      "name": "Addis Ababa",
+      "country": "Ethiopia",
+      "current": {
+        "temperature": 20,
+        "description": "Sunny",
+        "humidity": 50,
+        "wind_speed": 8
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 19,
+          "temperature_max": 22,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 18,
+          "temperature_max": 23,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 20,
+          "temperature_max": 24,
+          "description": "Partly cloudy"
+        }
+      ],
+      "id": "6387"
+    },
+    {
+      "name": "Dar es Salaam",
+      "country": "Tanzania",
+      "current": {
+        "temperature": 30,
+        "description": "Sunny",
+        "humidity": 65,
+        "wind_speed": 12
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 28,
+          "temperature_max": 32,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 27,
+          "temperature_max": 33,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 29,
+          "temperature_max": 34,
+          "description": "Partly cloudy"
+        }
+      ],
+      "id": "7867"
+    },
+    {
+      "name": "Kampala",
+      "country": "Uganda",
+      "current": {
+        "temperature": 28,
+        "description": "Partly cloudy",
+        "humidity": 75,
+        "wind_speed": 10
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 26,
+          "temperature_max": 30,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 25,
+          "temperature_max": 31,
+          "description": "Partly cloudy"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 27,
+          "temperature_max": 32,
+          "description": "Sunny"
+        }
+      ],
+      "id": "f5b1"
+    },
+    {
+      "name": "Kigali",
+      "country": "Rwanda",
+      "current": {
+        "temperature": 24,
+        "description": "Clear",
+        "humidity": 70,
+        "wind_speed": 8
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 22,
+          "temperature_max": 26,
+          "description": "Partly cloudy"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 21,
+          "temperature_max": 27,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 23,
+          "temperature_max": 28,
+          "description": "Partly cloudy"
+        }
+      ],
+      "id": "bd1e"
+    },
+    {
+      "name": "Mogadishu",
+      "country": "Somalia",
+      "current": {
+        "temperature": 32,
+        "description": "Sunny",
+        "humidity": 80,
+        "wind_speed": 15
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 30,
+          "temperature_max": 34,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 29,
+          "temperature_max": 35,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 31,
+          "temperature_max": 36,
+          "description": "Partly cloudy"
+        }
+      ],
+      "id": "f90f"
+    },
+    {
+      "name": "Djibouti City",
+      "country": "Djibouti",
+      "current": {
+        "temperature": 34,
+        "description": "Sunny",
+        "humidity": 85,
+        "wind_speed": 18
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 32,
+          "temperature_max": 36,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 31,
+          "temperature_max": 37,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 33,
+          "temperature_max": 38,
+          "description": "Partly cloudy"
+        }
+      ],
+      "id": "c43c"
+    },
+    {
+      "name": "Khartoum",
+      "country": "Sudan",
+      "current": {
+        "temperature": 38,
+        "description": "Clear",
+        "humidity": 90,
+        "wind_speed": 20
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 36,
+          "temperature_max": 40,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 35,
+          "temperature_max": 41,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 37,
+          "temperature_max": 42,
+          "description": "Partly cloudy"
+        }
+      ],
+      "id": "3413"
+    },
+    {
+      "name": "Asmara",
+      "country": "Eritrea",
+      "current": {
+        "temperature": 22,
+        "description": "Rainy",
+        "humidity": 75,
+        "wind_speed": 10
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 20,
+          "temperature_max": 25,
+          "description": "Partly cloudy"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 18,
+          "temperature_max": 27,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 22,
+          "temperature_max": 29,
+          "description": "Mostly Cloudy"
+        }
+      ],
+      "id": "6b7d"
+    },
+    {
+      "name": "Bujumbura",
+      "country": "Burundi",
+      "current": {
+        "temperature": 26,
+        "description": "Partly cloudy",
+        "humidity": 72,
+        "wind_speed": 12
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 24,
+          "temperature_max": 28,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 23,
+          "temperature_max": 29,
+          "description": "Partly cloudy"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 25,
+          "temperature_max": 30,
+          "description": "Sunny"
+        }
+      ],
+      "id": "d7bd"
+    },
+    {
+      "name": "Dodoma",
+      "country": "Tanzania",
+      "current": {
+        "temperature": 30,
+        "description": "Sunny",
+        "humidity": 78,
+        "wind_speed": 14
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 28,
+          "temperature_max": 32,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 27,
+          "temperature_max": 33,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 29,
+          "temperature_max": 34,
+          "description": "Partly cloudy"
+        }
+      ],
+      "id": "3183"
+    },
+    {
+      "name": "Mombasa",
+      "country": "Kenya",
+      "current": {
+        "temperature": 28,
+        "description": "Partly cloudy",
+        "humidity": 75,
+        "wind_speed": 10
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 26,
+          "temperature_max": 30,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 25,
+          "temperature_max": 31,
+          "description": "Partly cloudy"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 27,
+          "temperature_max": 32,
+          "description": "Sunny"
+        }
+      ],
+      "id": "7457"
+    },
+    {
+      "name": "Harare",
+      "country": "Zimbabwe",
+      "current": {
+        "temperature": 25,
+        "description": "Partly cloudy",
+        "humidity": 68,
+        "wind_speed": 8
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 23,
+          "temperature_max": 27,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 22,
+          "temperature_max": 28,
+          "description": "Partly cloudy"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 24,
+          "temperature_max": 29,
+          "description": "Sunny"
+        }
+      ],
+      "id": "4931"
+    },
+    {
+      "name": "Maputo",
+      "country": "Mozambique",
+      "current": {
+        "temperature": 29,
+        "description": "Sunny",
+        "humidity": 82,
+        "wind_speed": 16
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 27,
+          "temperature_max": 31,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 26,
+          "temperature_max": 32,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 28,
+          "temperature_max": 33,
+          "description": "Partly cloudy"
+        }
+      ],
+      "id": "41cd"
+    },
+    {
+      "name": "Lusaka",
+      "country": "Zambia",
+      "current": {
+        "temperature": 31,
+        "description": "Clear",
+        "humidity": 88,
+        "wind_speed": 22
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 29,
+          "temperature_max": 33,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 28,
+          "temperature_max": 34,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 30,
+          "temperature_max": 35,
+          "description": "Partly cloudy"
+        }
+      ],
+      "id": "7df6"
+    },
+    {
+      "name": "Lilongwe",
+      "country": "Malawi",
+      "current": {
+        "temperature": 28,
+        "description": "Partly cloudy",
+        "humidity": 70,
+        "wind_speed": 14
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 26,
+          "temperature_max": 30,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 25,
+          "temperature_max": 31,
+          "description": "Partly cloudy"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 27,
+          "temperature_max": 32,
+          "description": "Sunny"
+        }
+      ],
+      "id": "a9d0"
+    },
+    {
+      "name": "Gaborone",
+      "country": "Botswana",
+      "current": {
+        "temperature": 32,
+        "description": "Sunny",
+        "humidity": 75,
+        "wind_speed": 18
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 30,
+          "temperature_max": 34,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 29,
+          "temperature_max": 35,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 31,
+          "temperature_max": 36,
+          "description": "Partly cloudy"
+        }
+      ],
+      "id": "6762"
+    },
+    {
+      "name": "Juba",
+      "country": "South Sudan",
+      "current": {
+        "temperature": 33,
+        "description": "Clear",
+        "humidity": 80,
+        "wind_speed": 20
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 31,
+          "temperature_max": 35,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 30,
+          "temperature_max": 36,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 32,
+          "temperature_max": 37,
+          "description": "Partly cloudy"
+        }
+      ],
+      "id": "2965"
+    },
+    {
+      "name": "Arusha",
+      "country": "Tanzania",
+      "current": {
+        "temperature": 27,
+        "description": "Partly cloudy",
+        "humidity": 68,
+        "wind_speed": 16
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 25,
+          "temperature_max": 29,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 24,
+          "temperature_max": 30,
+          "description": "Partly cloudy"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 26,
+          "temperature_max": 31,
+          "description": "Sunny"
+        }
+      ],
+      "id": "4c35"
+    },
+    {
+      "name": "Hargeisa",
+      "country": "Somaliland",
+      "current": {
+        "temperature": 28,
+        "description": "Sunny",
+        "humidity": 72,
+        "wind_speed": 14
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 26,
+          "temperature_max": 30,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 25,
+          "temperature_max": 31,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 27,
+          "temperature_max": 32,
+          "description": "Partly cloudy"
+        }
+      ],
+      "id": "831a"
+    },
+    {
+      "name": "Maseru",
+      "country": "Lesotho",
+      "current": {
+        "temperature": 26,
+        "description": "Rainy",
+        "humidity": 65,
+        "wind_speed": 12
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 24,
+          "temperature_max": 28,
+          "description": "Partly cloudy"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 23,
+          "temperature_max": 29,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 25,
+          "temperature_max": 30,
+          "description": "Clear"
+        }
+      ],
+      "id": "bec3"
+    },
+    {
+      "name": "Antananarivo",
+      "country": "Madagascar",
+      "current": {
+        "temperature": 25,
+        "description": "Partly cloudy",
+        "humidity": 75,
+        "wind_speed": 10
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 23,
+          "temperature_max": 27,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 22,
+          "temperature_max": 28,
+          "description": "Partly cloudy"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 24,
+          "temperature_max": 29,
+          "description": "Sunny"
+        }
+      ],
+      "id": "fa46"
+    },
+    {
+      "name": "Blantyre",
+      "country": "Malawi",
+      "current": {
+        "temperature": 29,
+        "description": "Sunny",
+        "humidity": 78,
+        "wind_speed": 15
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 27,
+          "temperature_max": 31,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 26,
+          "temperature_max": 32,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 28,
+          "temperature_max": 33,
+          "description": "Partly cloudy"
+        }
+      ],
+      "id": "7a66"
+    },
+    {
+      "name": "Comoros City",
+      "country": "Comoros",
+      "current": {
+        "temperature": 26,
+        "description": "Partly cloudy",
+        "humidity": 80,
+        "wind_speed": 12
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 24,
+          "temperature_max": 28,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 23,
+          "temperature_max": 29,
+          "description": "Partly cloudy"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 25,
+          "temperature_max": 30,
+          "description": "Sunny"
+        }
+      ],
+      "id": "7073"
+    },
+    {
+      "name": "Seychelles",
+      "country": "Victoria",
+      "current": {
+        "temperature": 29,
+        "description": "Sunny",
+        "humidity": 82,
+        "wind_speed": 14
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 27,
+          "temperature_max": 31,
+          "description": "Partly cloudy"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 26,
+          "temperature_max": 32,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 28,
+          "temperature_max": 33,
+          "description": "Clear"
+        }
+      ],
+      "id": "0c22"
+    },
+    {
+      "name": "Moroni",
+      "country": "Comoros",
+      "current": {
+        "temperature": 27,
+        "description": "Clear",
+        "humidity": 75,
+        "wind_speed": 16
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 25,
+          "temperature_max": 29,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 24,
+          "temperature_max": 30,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 26,
+          "temperature_max": 31,
+          "description": "Partly cloudy"
+        }
+      ],
+      "id": "0d7a"
+    },
+    {
+      "name": "Zanzibar City",
+      "country": "Tanzania",
+      "current": {
+        "temperature": 28,
+        "description": "Partly cloudy",
+        "humidity": 70,
+        "wind_speed": 14
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 26,
+          "temperature_max": 30,
+          "description": "Clear"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 25,
+          "temperature_max": 31,
+          "description": "Partly cloudy"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 27,
+          "temperature_max": 32,
+          "description": "Sunny"
+        }
+      ],
+      "id": "aa4f"
+    },
+    {
+      "id": "0775",
+      "city": "Nairobi",
+      "country": "Kenya",
+      "forecasts": [
+        {
+          "date": "2024-02-08",
+          "temperature_min": "20",
+          "temperature_max": "30",
+          "description": "hot"
+        }
+      ]
+    },
+    {
+      "id": "7990",
+      "city": "Nairobi",
+      "country": "Kenya",
+      "forecasts": [
+        {
+          "date": "2024-02-17",
+          "temperature_min": "78",
+          "temperature_max": "78",
+          "description": "hot"
+        }
+      ]
+    },
+    {
+      "id": "8bd7",
+      "city": "Nairobi",
+      "country": "Kenya",
+      "forecasts": [
+        {
+          "date": "2024-02-06",
+          "temperature_min": "78",
+          "temperature_max": "78",
+          "description": "hot"
+        }
+      ]
+    },
+    {
+      "id": "5e0e",
+      "city": "Nairobi",
+      "country": "Kenya",
+      "forecasts": [
+        {
+          "date": "2024-02-05",
+          "temperature_min": "20",
+          "temperature_max": "30",
+          "description": "hot"
+        },
+        {
+          "date": "2024-02-09",
+          "temperature_min": "29",
+          "temperature_max": "56",
+          "description": "tttt"
+        }
+      ]
+    },
+    {
+      "id": "1612",
+      "city": "Nairobi",
+      "country": "Kenya",
+      "forecasts": [
+        {
+          "date": "2024-02-05",
+          "temperature_min": "20",
+          "temperature_max": "30",
+          "description": "hot"
+        }
+      ]
+    },
+    {
+      "id": "9e0e",
+      "city": "Queens",
+      "country": "Jamaica",
+      "forecasts": [
+        {
+          "date": "2024-02-02",
+          "temperature_min": "20",
+          "temperature_max": "30",
+          "description": "hot"
+        }
+      ]
+    },
+    {
+      "id": "5618",
+      "city": "Queens",
+      "country": "Jamaica",
+      "forecasts": [
+        {
+          "date": "2024-01-31",
+          "temperature_min": "78",
+          "temperature_max": "55",
+          "description": "hot"
+        }
+      ]
+    }
+  ]
+}
