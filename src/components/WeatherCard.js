@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
-import clear from "../assets/icons/clear.png";
-import partlycloudy from "../assets/icons/partly cloudy.png"
-import cloud from "../assets/icons/cloud.png";
-import rain from "../assets/icons/rain.png";
-import sun from "../assets/icons/sun.png";
+import clear from "../assets/image/clear.jpg";
+import partlycloudy from "../assets/image/partly cloudy.jpg";
+import cloud from "../assets/image/cloud.jpg";
+import rain from "../assets/image/rain.jpg";
+import sun from "../assets/image/sun.jpg";
 
 
 const WeatherCard = () => {
@@ -54,8 +54,8 @@ useEffect(() => {
 
 return (
     <div className="weather-card">
-        <div className='text-center'>
-      <label htmlFor="citySelector" className='fs-4 text-center'>Select a City: </label>
+        <div className='text-center' style={{margin:'25px 25px'}}>
+      <label htmlFor="citySelector" className='fs-6 text-center'>Select a City: <span style={{padding:"3px"}}></span></label>
       <select id="citySelector" onChange={handleCityChange} defaultValue="">
         <option value="" disabled hidden>Select a city</option>
         {cities.map((city, index) => (
@@ -70,8 +70,8 @@ return (
       {selectedCity && (
         <div className='container py-5'>
           
-        <div className='card text-bg-info bg-opacity-10' style={{width: '18rem'}}>
-            <img src={icon} className='card-img-top mx-auto p-5' style={{width: '12rem',height: '12rem'}} alt='weather'/>
+        <div className='card text-bg-info bg-opacity-10' style={{width: '27rem'}}>
+            <img src={icon} className='card-img-top mx-auto p-5' style={{width: '18rem',height: '18rem'}} alt='weather'/>
             <div className='card-body'>
                 <h2 className='card-title text-center badge text-info-emphasis py-0 fs-5'>{`${selectedCity.name}, ${selectedCity.country}`}</h2>
             </div>
@@ -85,7 +85,7 @@ return (
 
         <div className='mx-5'>
           <div className='card text-bg-info mb-2 bg-opacity-10' style={{width: '25rem', height: '18rem'}}>
-            <img src={icon} className='card-img-top mx-auto p-5' style={{width: '12rem',height: '12rem'}} alt='weather'/>
+            <img src={icon} className='card-img-top mx-auto p-5' style={{width: '18rem',height: '12rem'}} alt='weather'/>
           <div className='card-body'>
             <ul className="list-group list-group-horizontal">
             {selectedCity.forecast.map(item => (
