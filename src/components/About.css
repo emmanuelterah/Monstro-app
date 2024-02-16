@@ -1,0 +1,49 @@
+/*.container {
+    max-width: 800px; /* Adjust the max-width as needed */
+   /* margin: 0 auto; /* This centers the container horizontally */
+    /*padding: 20px;*/ /* Add padding to the container if needed */
+    /*text-align: center; Center-align the text inside the container*/
+  /*}*/
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #000; /* Text color */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  

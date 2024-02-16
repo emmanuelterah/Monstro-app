@@ -1,8 +1,9 @@
 import React from 'react';
+import "./About.css";
 
 const About = () => {
   return (
-    <div>
+    <div className='container'>
       <h1>Weather App</h1>
       <p>
         The Weather App is a simple application that provides real-time weather information for different cities around the world.
