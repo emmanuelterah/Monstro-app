@@ -5,7 +5,7 @@
     /*text-align: center; Center-align the text inside the container*/
   /*}*/
 
-  .container {
+  .about-container {
     display: flex;
     flex-direction: column;
     justify-content: center;

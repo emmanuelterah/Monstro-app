@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import "./WeatherCard.css";
 
 import clear from "../assets/icons/clear.png";
 import partlycloudy from "../assets/icons/partly cloudy.png"

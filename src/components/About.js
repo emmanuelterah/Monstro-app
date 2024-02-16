@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className='container'>
+    <div className='about-container'>
       <h1>Weather App</h1>
       <p>
         The Weather App is a simple application that provides real-time weather information for different cities around the world.

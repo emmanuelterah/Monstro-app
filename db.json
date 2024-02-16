@@ -959,6 +959,19 @@
           "description": "Clear"
         }
       ]
+    },
+    {
+      "id": "6a79",
+      "city": "Compton",
+      "country": "USA",
+      "forecasts": [
+        {
+          "date": "2024-01-31",
+          "temperature_min": "20",
+          "temperature_max": "78",
+          "description": "Clear"
+        }
+      ]
     }
   ]
 }
