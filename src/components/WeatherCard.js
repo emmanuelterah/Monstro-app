@@ -68,11 +68,11 @@ return (
       
         
       {selectedCity && (
-        <div className='container py-5'>
-        <div className='card text-bg-info mb-3 bg-opacity-10' style={{width: '25rem'}}>
-            <img src={icon} className='card-img-top mx-auto p-5' alt='weather'/>
+        <div className='py-5'>
+        <div className='card text-bg-info mb-3 bg-opacity-10' style={{width: '23rem'}}>
+            <img src={icon} className='card-img-top mx-auto p-5' style={{width: '20rem',height: '20rem'}} alt='weather'/>
             <div className='card-body'>
-                <h2 className='card-title text-center'>{`${selectedCity.name}, ${selectedCity.country}`}</h2>
+                <h2 className='card-title text-center badge text-info-emphasis py-0 fs-3'>{`${selectedCity.name}, ${selectedCity.country}`}</h2>
             </div>
             <ul className='list-group list-group-flush'>
           <li className='list-group-item text-bg-info mb-3 bg-opacity-10'>Current Temperature: {selectedCity.current.temperature}°C</li>
@@ -83,13 +83,13 @@ return (
         </div>
 
         <div className='py-5'>
-          <h3 className='badge bg-primary fs-3'>Forecast</h3>
-          <div className='card text-bg-info mb-3 bg-opacity-10' style={{width: '35rem'}}>
-            <img src={icon} className='card-img-top mx-auto p-5' style={{height: '27rem'}} alt='weather'/>
+          <h3 className='badge bg-primary fs-5'>Forecast</h3>
+          <div className='card text-bg-info mb-3 bg-opacity-10' style={{width: '25rem', height: '25rem'}}>
+            <img src={icon} className='card-img-top mx-auto p-5' style={{width: '15rem',height: '15rem'}} alt='weather'/>
           <div className='card-body'>
             <ul className="list-group list-group-horizontal">
             {selectedCity.forecast.map(item => (
-              <li className='list-group-item border border-black rounded mx-3' key={item.date}>
+              <li className='list-group-item border border-black rounded mx-2 badge text-info-emphasis pt-4' style={{width: '20rem',height: '5rem'}} key={item.date}>
                 {item.date}: <br/>{item.temperature_min}°C - {item.temperature_max}°C, <br/>{item.description}
               </li>
             ))}
