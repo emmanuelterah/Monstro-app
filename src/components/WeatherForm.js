@@ -103,7 +103,7 @@ const WeatherForm = ({ handleSubmissions }) => {
       <Formik
         initialValues={{
           city: '',
-          current_city: '', // Add current_city field
+          current: '', 
           country: '',
           forecasts: [
             { date: '', temperature_min: '', temperature_max: '', description: '' }
@@ -117,7 +117,7 @@ const WeatherForm = ({ handleSubmissions }) => {
           if (!values.country) {
             errors.country = 'Required';
           }
-          // Validation for each forecast entry
+
           values.forecasts.forEach((forecast, index) => {
             if (!forecast.date || !forecast.temperature_min || !forecast.temperature_max || !forecast.description) {
               errors[`forecasts.${index}`] = 'All fields are required';
@@ -138,7 +138,7 @@ const WeatherForm = ({ handleSubmissions }) => {
               <ErrorMessage name="city" component="div" />
             </div>
             <div>
-              <label htmlFor="current_city" className='text-primary-emphasis'>Current City:</label>
+              <label htmlFor="current" className='text-primary-emphasis'>Current City:</label>
               <Field className="weather-form input" style={{width: '8rem', height: '1.3rem'}} type="text" name="current_city" />
               <ErrorMessage name="current_city" component="div" />
             </div>
@@ -147,7 +147,7 @@ const WeatherForm = ({ handleSubmissions }) => {
               <Field className="weather-form input" style={{width: '8rem', height: '1.3rem'}} type="text" name="country" />
               <ErrorMessage name="country" component="div" />
             </div>
-            {/* Input fields for each forecast entry */}
+
             {values.forecasts.map((forecast, index) => (
               <div key={index}>
                 <h3 className='badge text-info-emphasis pt-4'>Forecast {index + 1}</h3>
@@ -174,7 +174,7 @@ const WeatherForm = ({ handleSubmissions }) => {
               </div>
             ))}
             <button className='weather-form button btn btn-primary btn-sm mx-3 my-3' type="button" onClick={() => {
-              // Add a new forecast entry
+              
               values.forecasts.push({ date: '', temperature_min: '', temperature_max: '', description: '' });
             }}>Add Forecast</button>
             <button className='weather-form button btn btn-primary btn-sm mx-3 my-3' type="submit" disabled={isSubmitting}>

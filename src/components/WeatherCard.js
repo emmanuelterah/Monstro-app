@@ -53,6 +53,7 @@ useEffect(() => {
 
 
 return (
+
     <div className="weather-card">
         <div className='text-center' style={{margin:'25px 25px'}}>
       <label htmlFor="citySelector" className='fs-6 text-center'>Select a City: <span style={{padding:"3px"}}></span></label>
@@ -69,8 +70,8 @@ return (
         
       {selectedCity && (
         <div className='container py-5'>
-          
         <div className='card text-bg-info bg-opacity-10' style={{width: '27rem'}}>
+          <h2 style={{paddingLeft:'75px', paddingRight:'75px', marginTop: '28px', color: '#086868'}}>City Display</h2>
             <img src={icon} className='card-img-top mx-auto p-4' style={{width: '22rem',height: '18rem', marginRight: '8px'}} alt='weather'/>
             <div className='card-body'>
                 <h2 className='card-title text-center badge text-info-emphasis py-2 fs-4' style={{marginLeft: "32px"}}>{`${selectedCity.name}, ${selectedCity.country}`}</h2>
@@ -85,8 +86,10 @@ return (
 
         <div className='mx-5'>
           <div className='card text-bg-info mb-2 bg-opacity-10' style={{width: '29rem', height:'32rem'}}>
-            <img src={icon} className='card-img-top mx-auto p-6' style={{width: '24rem',height: '14rem', marginTop: '28px'}} alt='weather'/>
+          <h2 style={{paddingLeft:'75px', paddingRight:'75px', marginTop: '28px', color: '#086868'}}>Weather Forecast</h2>
+            <img src={icon} className='card-img-top mx-auto p-6' style={{width: '24rem',height: '15rem', marginTop: '28px'}} alt='weather'/>
           <div className='card-body'>
+            <p style={{fontSize:'24px',marginLeft:'30px', marginRight:'30px', marginBottom:'40px', color:'blue'}}></p>
             <ul className="list-group list-group-horizontal">
             {selectedCity.forecast.map(item => (
               <li className='list-group-item border border-black rounded mx-2 badge text-info-emphasis pt-3' style={{width: '18rem',height: '4rem'}} key={item.date}>

@@ -13,7 +13,7 @@ const WeatherComparison = () => {
           id: city.id,
           name: city.name,
           country: city.country,
-          current: city.current.name || 'N/A', // Record the current city value or set to 'N/A' if not available
+          current: city.current || 'N/A', // Record the current city value or set to 'N/A' if not available
           temperature: city.current ? city.current.temperature : 'N/A',
           description: city.current ? city.current.description : 'N/A'
         }));
