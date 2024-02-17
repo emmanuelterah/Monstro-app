@@ -5,7 +5,7 @@ import BackgroundDisplay from './components/BackgroundDisplay';
 // import SearchHistory from './components/SearchHistory';
 import TemperatureConverter from './components/TemperatureConverter';
 import About from './components/About';
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar'
 import Home from './components/Home';
 import {Routes, Route} from "react-router-dom";
 import './App.css';
