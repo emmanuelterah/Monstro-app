@@ -1,33 +1,71 @@
 .comp-container {
   max-width: 40%;
   margin: 0 auto;
-  max-width: 1250px;
-  max-height: 960px;
+  max-width: 1150px;
+  max-height: 1800px;
 }
-
-/* .overall {
-  max-height: 860px;
-  max-width: 70%;
-  margin: 0 auto;
-} */
 
 .comparison-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
-    gap: 10px; 
+    margin-bottom: 10px; 
   }
   
   .city-card {
     border: 1px solid #ccc;
     padding: 15px;
-    margin: 6px 15px;
+    margin: 12px 22px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border: 2px solid hwb(198 80% 0% / 0.651);
     box-shadow: 0 4px 6px rgba(119, 106, 106, 0.438); 
     box-shadow: 0 4px 6px #285d8ffa;
-    max-height: 150px;
-    max-width: 200px;
+    height: 140px;
+    width: 200px;
+  }
+  .city-card:hover {
+    border: 1px solid #ccc;
+    background: radial-gradient(rgb(68, 114, 114), rgb(41, 91, 138));
+    color: white;
+    padding: 15px;
+    margin: 12px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid hwb(198 80% 0% / 0.651);
+    box-shadow: 0 4px 6px rgba(119, 106, 106, 0.438); 
+    box-shadow: 0 4px 6px #285d8ffa;
+    height: 140px;
+    width: 200px;
+    transform: translateY(-7px) translateX(12px);
+    
+  }
+
+  .comp-button {
+    padding: 3px 18px;
+    font-size: 12px;
+    border: 0.16em solid rgba(255, 255, 255, 0);
+    background-color: #276581;
+    border-radius: 2em;
+    margin-top: 2px;
+    margin-left: 75px;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+    text-align: center;
+    transition: all 0.9s;
+  }
+
+  .comp-button:hover {
+    border-color: rgb(255, 255, 255);
+    background: radial-gradient(#112a36, rgb(14, 13, 13)) #9e9898;
+    color: whitesmoke;
+    -webkit-filter: blur(0.3px);
+    filter: blur(0.3px)
   }
 
   h2 {

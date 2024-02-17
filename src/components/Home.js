@@ -1,15 +1,15 @@
 import BackgroundDisplay from './BackgroundDisplay';
 import WeatherCard from './WeatherCard';
-import WeatherForm from './WeatherForm';
 // import SearchHistory from './SearchHistory';
 import React, { useState } from 'react';
 
 const Home = () => {
 
   const [selectedCity, setSelectedCity] = useState(null);
-// const [searchHistory, setSearchHistory] = useState([]);
+// // const [searchHistory, setSearchHistory] = useState([]);
 
-  // Function to handle form submission and update search history.
+//   // Function to handle form submission and update search history.
+// eslint-disable-next-line
   function handleSubmit(city) {
     console.log('Submitting city: ', city);
     setSelectedCity(city);
@@ -19,7 +19,6 @@ const Home = () => {
     <div>
       <BackgroundDisplay />
       <WeatherCard selectedCity={selectedCity} />
-      {/* <WeatherForm handleSubmit={handleSubmit} handleSubmissions={handleSubmissions} /> */}
     </div>
   );
 };

@@ -54,7 +54,7 @@ const App = () => {
   }
   return (
     <div className="App">
-      <BackgroundDisplay /*selectedCity={selectedCity} *//>
+      <BackgroundDisplay selectedCity={selectedCity}/>
       <NavBar/>
       <Routes>
         <Route path='/' element={<Home />} />

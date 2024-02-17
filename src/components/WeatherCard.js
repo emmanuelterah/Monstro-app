@@ -71,9 +71,9 @@ return (
         <div className='container py-5'>
           
         <div className='card text-bg-info bg-opacity-10' style={{width: '27rem'}}>
-            <img src={icon} className='card-img-top mx-auto p-5' style={{width: '18rem',height: '18rem'}} alt='weather'/>
+            <img src={icon} className='card-img-top mx-auto p-4' style={{width: '22rem',height: '18rem', marginRight: '8px'}} alt='weather'/>
             <div className='card-body'>
-                <h2 className='card-title text-center badge text-info-emphasis py-0 fs-5'>{`${selectedCity.name}, ${selectedCity.country}`}</h2>
+                <h2 className='card-title text-center badge text-info-emphasis py-2 fs-4' style={{marginLeft: "32px"}}>{`${selectedCity.name}, ${selectedCity.country}`}</h2>
             </div>
             <ul className='list-group list-group-flush'>
           <li className='list-group-item text-bg-info mb-0 bg-opacity-10'>Current Temperature: {selectedCity.current.temperature}°C</li>
@@ -84,12 +84,12 @@ return (
         </div>
 
         <div className='mx-5'>
-          <div className='card text-bg-info mb-2 bg-opacity-10' style={{width: '25rem', height: '18rem'}}>
-            <img src={icon} className='card-img-top mx-auto p-5' style={{width: '18rem',height: '12rem'}} alt='weather'/>
+          <div className='card text-bg-info mb-2 bg-opacity-10' style={{width: '29rem', height:'32rem'}}>
+            <img src={icon} className='card-img-top mx-auto p-6' style={{width: '24rem',height: '14rem', marginTop: '28px'}} alt='weather'/>
           <div className='card-body'>
             <ul className="list-group list-group-horizontal">
             {selectedCity.forecast.map(item => (
-              <li className='list-group-item border border-black rounded mx-2 badge text-info-emphasis pt-3' style={{width: '20rem',height: '4rem'}} key={item.date}>
+              <li className='list-group-item border border-black rounded mx-2 badge text-info-emphasis pt-3' style={{width: '18rem',height: '4rem'}} key={item.date}>
                 {item.date}: <br/>{item.temperature_min}°C - {item.temperature_max}°C, <br/>{item.description}
               </li>
             ))}
