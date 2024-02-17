@@ -1,0 +1,55 @@
+.navbar-container {
+  background-color: hwb(0 100% 0% / 0.801);
+  border: 2px solid hwb(198 80% 0% / 0.651);
+  box-shadow: 0 5px 8px #12464dde;
+  color: #000;
+  width: 100%;
+  height: 2%;
+  padding: 5px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.moon-icon {
+  color: #fff; 
+  font-size: 32px; 
+}
+
+.logo {
+  font-size: 24px;
+  margin-right: 80px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-emphasis-color: #000;
+  text-align: center;
+}
+
+ul .samoa {
+  margin-left: auto; 
+  display: inline-block;
+  margin: 10px 40px;
+  text-decoration: none;
+  transition: color 0.9s ease-in-out;
+  justify-content: space-around;
+  text-align: end;
+  color: #000;
+  font-size: 22px;
+}
+
+ul .samoa:hover {
+  color: white ;
+  font-weight: 600;
+  border: 2px solid hwb(198 80% 0% / 0.651);
+  text-decoration-color: 0 5px 8px #12464dde;
+  padding: 8px 21px;
+}
+
+.logo{
+  width: 175px;
+  cursor: pointer;
+}
