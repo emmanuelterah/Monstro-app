@@ -15,7 +15,7 @@ const WeatherCard = () => {
 useEffect(() => {
     const fetchCityData = async () => {
       try {
-        const response = await fetch('http://localhost:8001/cities');
+        const response = await fetch('https://cities-9pmb.onrender.com/cities');
         const data = await response.json();
         setCities(data);
       } catch (error) {
