@@ -13,7 +13,7 @@ const App = () => {
   const [selectedCity, setSelectedCity] = useState(null);
   const handleSubmit = async (values, actions) => {
     try {
-      const response = await fetch(`http://localhost:8001/weather?city=${values.city}&country=${values.country}`);
+      const response = await fetch(`https://json-server-vercel-xi-ten.vercel.app/weather?city=${values.city}&country=${values.country}`);
       if (!response.ok) {
         throw new Error('Failed to fetch weather data');
       }
@@ -29,7 +29,7 @@ const App = () => {
 
   const handleSubmissions = async (values, setSubmitting, resetForm) => {
     try {
-      const response = await fetch('http://localhost:8001/cities', {
+      const response = await fetch('https://json-server-vercel-xi-ten.vercel.app/cities', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
