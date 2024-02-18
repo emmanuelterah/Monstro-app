@@ -15,7 +15,7 @@ const WeatherCard = () => {
 useEffect(() => {
     const fetchCityData = async () => {
       try {
-        const response = await fetch('https://json-server-vercel-xi-ten.vercel.app/cities');
+        const response = await fetch('http://localhost:8001/cities');
         const data = await response.json();
         setCities(data);
       } catch (error) {
