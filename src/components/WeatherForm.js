@@ -33,7 +33,7 @@ const WeatherForm = ({ handleSubmissions }) => {
   }, []);
 
   return (
-    <div style={{ margin: "0 auto", width: '600px', height: '600px', marginTop: '5%', padding: '20px', border: "2px solid hwb(198 80% 0% / 0.651)", boxShadow: "0 5px 8px #12464dde", borderRadius: "10px" }}>
+    <div style={{ margin: "0 auto", width: '600px', height: '660px', marginTop: '3%',marginBottom: '3%', padding: '20px', border: "2px solid hwb(198 80% 0% / 0.651)", boxShadow: "0 5px 8px #12464dde", borderRadius: "10px" }}>
       <h2 style={{ marginBottom: "12%" }}>Document Weather With Us!</h2>
       <Formik
         initialValues={initialValues}
