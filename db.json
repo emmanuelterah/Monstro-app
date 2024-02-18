@@ -874,6 +874,44 @@
           "description": "Kumewaka jo"
         }
       ]
+    },
+    {
+      "id": "b152",
+      "name": "Kajiado",
+      "country": "Kenya",
+      "current": {
+        "temperature": 22,
+        "description": "Sunny",
+        "humidity": 22,
+        "wind_speed": 16
+      },
+      "forecast": [
+        {
+          "date": "2024-02-01",
+          "temperature_min": 22,
+          "temperature_max": 24,
+          "description": "Sunny"
+        }
+      ]
+    },
+    {
+      "id": "1ac7",
+      "name": "Kajiado",
+      "country": "Kenya",
+      "current": {
+        "temperature": 22,
+        "description": "Sunny",
+        "humidity": 22,
+        "wind_speed": 16
+      },
+      "forecast": [
+        {
+          "date": "2024-02-01",
+          "temperature_min": 22,
+          "temperature_max": 24,
+          "description": "Sunny"
+        }
+      ]
     }
   ]
 }
