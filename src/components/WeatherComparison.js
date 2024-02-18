@@ -24,7 +24,7 @@ const WeatherComparison = () => {
       }
     };
 
-    fetchWeatherData();
+      fetchWeatherData();
   }, []);
 
   const deleteCity = async (id) => {
@@ -43,7 +43,7 @@ const WeatherComparison = () => {
   };
 
   const filteredCities = cities.filter(city =>
-    city.name.toLowerCase().includes(searchQuery.toLowerCase())
+    city?.name?.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   return (
@@ -65,7 +65,7 @@ const WeatherComparison = () => {
               <div>
             </div>
             </div>
-            <div>
+              <div>
                 <button className="comp-button" onClick={() => deleteCity(city.id)}>Delete City</button>
               </div>
             </div>
@@ -77,3 +77,4 @@ const WeatherComparison = () => {
 };
 
 export default WeatherComparison;
+

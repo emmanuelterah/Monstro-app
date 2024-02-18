@@ -836,6 +836,227 @@
         }
       ],
       "id": "aa4f"
+    },
+    {
+      "id": "9a34",
+      "city": "Nairobi",
+      "current": "",
+      "country": "Jamaica",
+      "forecasts": [
+        {
+          "date": "2024-02-02",
+          "temperature_min": "34",
+          "temperature_max": "78",
+          "description": "Clear"
+        }
+      ],
+      "current_city": "Nairobi"
+    },
+    {
+      "id": "232f",
+      "city": "Nairobi",
+      "current": "",
+      "country": "Kenya",
+      "forecasts": [
+        {
+          "date": "2024-02-02",
+          "temperature_min": "78",
+          "temperature_max": "78",
+          "description": "Clear"
+        }
+      ],
+      "current_city": "Nairobi"
+    },
+    {
+      "id": "dbd5",
+      "city": "Nairobi",
+      "current": "",
+      "country": "Jamaica",
+      "forecasts": [
+        {
+          "date": "2024-02-08",
+          "temperature_min": "78",
+          "temperature_max": "78",
+          "description": "Clear"
+        }
+      ],
+      "current_city": "Nairobi"
+    },
+    {
+      "id": "ff46",
+      "city": "Nairobi",
+      "current": "",
+      "country": "Jamaica",
+      "forecasts": [
+        {
+          "date": "2024-02-03",
+          "temperature_min": "20",
+          "temperature_max": "78",
+          "description": "Clear"
+        }
+      ],
+      "current_city": "Nairobi"
+    },
+    {
+      "id": "76c9",
+      "city": "Nairobi",
+      "current_city": "Nairobi",
+      "country": "Jamaica",
+      "forecasts": [
+        {
+          "date": "2024-02-02",
+          "temperature_min": "78",
+          "temperature_max": "30",
+          "description": "hot"
+        }
+      ]
+    },
+    {
+      "id": "5c05",
+      "city": "Nairobi",
+      "current": "",
+      "country": "Kenya",
+      "forecasts": [
+        {
+          "date": "2024-02-03",
+          "temperature_min": "20",
+          "temperature_max": "78",
+          "description": "Clear"
+        }
+      ],
+      "current_city": "Nairobi"
+    },
+    {
+      "id": "c1de",
+      "city": "Nairobi",
+      "current": "",
+      "country": "Kenya",
+      "forecasts": [
+        {
+          "date": "2024-02-03",
+          "temperature_min": "20",
+          "temperature_max": "78",
+          "description": "hot"
+        }
+      ],
+      "current_city": "Nairobi"
+    },
+    {
+      "id": "3d27",
+      "city": "Kingston",
+      "current": "",
+      "country": "Jamaica",
+      "forecasts": [
+        {
+          "date": "2024-02-01",
+          "temperature_min": "78",
+          "temperature_max": "30",
+          "description": "hot"
+        }
+      ]
+    },
+    {
+      "id": "243d",
+      "city": "Nairobi",
+      "current": "",
+      "country": "Kenya",
+      "forecasts": [
+        {
+          "date": "2024-02-09",
+          "temperature_min": "78",
+          "temperature_max": "30",
+          "description": "Clear"
+        }
+      ],
+      "current_city": "Nairobi"
+    },
+    {
+      "id": "55d5",
+      "city": "Nairobi",
+      "current": "",
+      "country": "Kenya",
+      "forecasts": [
+        {
+          "date": "2024-02-02",
+          "temperature_min": "78",
+          "temperature_max": "78",
+          "description": "Clear"
+        }
+      ],
+      "current_city": "Nairobi"
+    },
+    {
+      "id": "2b96",
+      "city": "Kingston",
+      "current": "",
+      "country": "Jamaica",
+      "forecasts": [
+        {
+          "date": "2024-02-09",
+          "temperature_min": "20",
+          "temperature_max": "78",
+          "description": "Clear"
+        }
+      ],
+      "current_city": "Nairobi"
+    },
+    {
+      "id": "7a15",
+      "city": "Kingston",
+      "current": "",
+      "country": "Jamaica",
+      "forecasts": [
+        {
+          "date": "2024-02-14",
+          "temperature_min": "78",
+          "temperature_max": "78",
+          "description": "Clear"
+        }
+      ],
+      "current_city": "Nairobi"
+    },
+    {
+      "id": "c093",
+      "city": "Kingston",
+      "current": "",
+      "country": "Jamaica",
+      "forecasts": [
+        {
+          "date": "2024-02-29",
+          "temperature_min": "20",
+          "temperature_max": "78",
+          "description": "Clear"
+        }
+      ],
+      "current_city": "Nairobi"
+    },
+    {
+      "id": "73cb",
+      "city": "Kingston",
+      "current": "Nairobi",
+      "country": "Kenya",
+      "forecasts": [
+        {
+          "date": "2024-02-23",
+          "temperature_min": "20",
+          "temperature_max": "78",
+          "description": "hot"
+        }
+      ]
+    },
+    {
+      "id": "e44a",
+      "city": "Nairobi",
+      "current": "Nairobi",
+      "country": "Kenya",
+      "forecasts": [
+        {
+          "date": "2024-02-23",
+          "temperature_min": "78",
+          "temperature_max": "78",
+          "description": "Clear"
+        }
+      ]
     }
   ]
 }
