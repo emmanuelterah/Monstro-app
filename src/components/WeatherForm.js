@@ -68,7 +68,7 @@ const WeatherForm = ({ handleSubmissions }) => {
         onSubmit={(values, { setSubmitting, resetForm }) => {
           handleSubmissions(values, setSubmitting, resetForm);
           setSubmitting(false);
-          axios.post('https://json-server-vercel-xi-ten.vercel.app/cities', values)
+          axios.post('https://json-server-vercel-xi-ten.vercel.app/', values)
             .then(response => {
               console.log('Data submitted successfully:', response.data);
             })
