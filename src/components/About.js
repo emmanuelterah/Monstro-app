@@ -11,20 +11,20 @@ const About = () => {
 
       <h2>Features</h2>
       <ul>
-        <li>Get current weather information for a specific city.</li>
-        <li>View the current temperature, weather conditions, humidity, and wind speed.</li>
-        <li>Explore a 5-day weather forecast.</li>
+        <li style={{fontWeight: "normal"}}>Get current weather information for a specific city.</li>
+        <li style={{fontWeight: "normal"}}>View the current temperature, weather conditions, humidity, and wind speed.</li>
+        <li style={{fontWeight: "normal"}}>Explore a 5-day weather forecast.</li>
       </ul>
 
       <h2>Technologies Used</h2>
       <ul>
-        <li>React for building the user interface.</li>
-        <li>Fetch API for obtaining weather data.</li>
+        <li style={{fontWeight: "normal"}}>React for building the user interface.</li>
+        <li style={{fontWeight: "normal"}}>Fetch API for obtaining weather data.</li>
       </ul>
 
       <h2>How to Use</h2>
       <p>
-        <div id="what">
+        <div id="what" style={{fontWeight: "normal"}}>
         Enter the name of the city and its country in the search form to fetch the latest weather information.
         Explore the 5-day forecast for a detailed view.
         </div>
