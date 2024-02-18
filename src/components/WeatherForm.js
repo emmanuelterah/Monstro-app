@@ -23,7 +23,7 @@ const WeatherForm = ({ handleSubmissions }) => {
   });
 
   useEffect(() => {
-    axios.get('https://json-server-vercel-xi-ten.vercel.app/cities')
+    axios.get('http://localhost:8001/cities')
       .then(response => {
         setInitialValues(response.data); 
       })
@@ -68,7 +68,7 @@ const WeatherForm = ({ handleSubmissions }) => {
         onSubmit={(values, { setSubmitting, resetForm }) => {
           handleSubmissions(values, setSubmitting, resetForm);
           setSubmitting(false);
-          axios.post('https://json-server-vercel-xi-ten.vercel.app/', values)
+          axios.post('http://localhost:8001/cities', values)
             .then(response => {
               console.log('Data submitted successfully:', response.data);
             })

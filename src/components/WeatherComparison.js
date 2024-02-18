@@ -8,7 +8,7 @@ const WeatherComparison = () => {
   useEffect(() => {
     const fetchWeatherData = async () => {
       try {
-        const response = await fetch('https://json-server-vercel-xi-ten.vercel.app/cities');
+        const response = await fetch('http://localhost:8001/cities');
         const data = await response.json();
         const formattedCities = data.map(city => ({
           id: city.id,
@@ -29,7 +29,7 @@ const WeatherComparison = () => {
 
   const deleteCity = async (id) => {
     try {
-      const response = await fetch(`https://json-server-vercel-xi-ten.vercel.app/cities/${id}`, {
+      const response = await fetch(`http://localhost:8001/cities/${id}`, {
         method: 'DELETE',
       });
       if (response.ok) {
