@@ -33,7 +33,7 @@ const WeatherForm = ({ handleSubmissions }) => {
   }, []);
 
   return (
-    <div style={{ margin: "0 auto", width: '1440px', height: '720px', marginTop: '3%',marginBottom: '3%', padding: '20px', border: "2px solid hwb(198 80% 0% / 0.651)", boxShadow: "0 5px 8px #12464dde", borderRadius: "10px" }}>
+    <div style={{ margin: "0 auto", width: '1440px', height: '700px', marginTop: '3%',marginBottom: '3%', padding: '20px', border: "2px solid hwb(198 80% 0% / 0.651)", boxShadow: "0 5px 8px #12464dde", borderRadius: "10px" }}>
       <h2 style={{ width: "100%", height: "50px", marginBottom: '20px' }}>Document Weather With Us!</h2>
       <Formik
         initialValues={initialValues}
@@ -84,32 +84,32 @@ const WeatherForm = ({ handleSubmissions }) => {
               <h2 style={{height: '40px', marginBottom: '12px', paddingTop: '15px', paddingBottom: '40px', marginRight: '3px'}}>Weather Form</h2>
             <div>
               <label htmlFor="name" style={{ color: 'black', fontWeight: "normal" }}>City Name:</label>
-              <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px',marginLeft: "2%", width: '50%', height: '1.8rem', border: "1px solid black" }} type="text" name="name" />
+              <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px',marginLeft: "2%", width: '30%', height: '1.8rem', border: "1px solid black" }} type="text" name="name" />
               <ErrorMessage name="name" component="div" />
             </div>
             <div>
               <label htmlFor="country" style={{ color: 'black', fontWeight: "normal" }}>Country:</label>
-              <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px', marginLeft: "2%", width: '50%', height: '1.8rem', border: "1px solid black" }} type="text" name="country" />
+              <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px', marginLeft: "2%", width: '30%', height: '1.8rem', border: "1px solid black" }} type="text" name="country" />
               <ErrorMessage name="country" component="div" />
             </div>
             <div>
               <label htmlFor="current.temperature" style={{ color: 'black', fontWeight: "normal" }}>Current Temperature:</label>
-              <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px', marginLeft: "2%", width: '50%', height: '1.8rem', border: "1px solid black" }} type="number" name="current.temperature" />
+              <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px', marginLeft: "2%", width: '30%', height: '1.8rem', border: "1px solid black" }} type="number" name="current.temperature" />
               <ErrorMessage name="current.temperature" component="div" />
             </div>
             <div>
               <label htmlFor="current.description" style={{ color: 'black', fontWeight: "normal" }}>Current Description:</label>
-              <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px', marginLeft: "2%", width: '50%', height: '1.8rem', border: "1px solid black" }} type="text" name="current.description" />
+              <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px', marginLeft: "2%", width: '30%', height: '1.8rem', border: "1px solid black" }} type="text" name="current.description" />
               <ErrorMessage name="current.description" component="div" />
             </div>
             <div>
               <label htmlFor="current.humidity" style={{ color: 'black', fontWeight: "normal" }}>Humidity:</label>
-              <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px', marginLeft: "2%", width: '50%', height: '1.8rem', border: "1px solid black" }} type="number" name="current.humidity" />
+              <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px', marginLeft: "2%", width: '30%', height: '1.8rem', border: "1px solid black" }} type="number" name="current.humidity" />
               <ErrorMessage name="current.humidity" component="div" />
             </div>
             <div>
               <label htmlFor="current.wind_speed" style={{ color: 'black', fontWeight: "normal" }}>Wind Speed:</label>
-              <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px', marginLeft: "2%", width: '50%', height: '1.8rem', border: "1px solid black" }} type="number" name="current.wind_speed" />
+              <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px', marginLeft: "2%", width: '30%', height: '1.8rem', border: "1px solid black" }} type="number" name="current.wind_speed" />
               <ErrorMessage name="current.wind_speed" component="div" />
             </div>
           </div>
@@ -120,34 +120,38 @@ const WeatherForm = ({ handleSubmissions }) => {
                 <h2 style={{marginLeft: '3px', height: '32px', marginBottom: '12px', paddingTop: '15px', paddingBottom: '40px'}}>Forecast</h2>
                 <div style = {{marginTop: '12px'}}>
                   <label htmlFor={`forecast.${index}.date`} style={{ color: 'black', fontWeight: "normal" }}>Date:</label>
-                  <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px', marginLeft: "2%", width: '50%', height: '1.8rem', border: "1px solid black" }} type="date" name={`forecast.${index}.date`} />
+                  <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px', marginLeft: "2%", width: '30%', height: '1.8rem', border: "1px solid black" }} type="date" name={`forecast.${index}.date`} />
                   <ErrorMessage name={`forecast.${index}.date`} component="div" />
                 </div>
                 <div>
                   <label htmlFor={`forecast.${index}.temperature_min`} style={{ color: 'black', fontWeight: "normal" }}>Minimum Temperature:</label>
-                  <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px', marginLeft: "2%", width: '50%', height: '1.8rem', border: "1px solid black" }} type="number" name={`forecast.${index}.temperature_min`} />
+                  <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px', marginLeft: "2%", width: '30%', height: '1.8rem', border: "1px solid black" }} type="number" name={`forecast.${index}.temperature_min`} />
                   <ErrorMessage name={`forecast.${index}.temperature_min`} component="div" />
                 </div>
                 <div>
                   <label htmlFor={`forecast.${index}.temperature_max`} style={{ color: 'black', fontWeight: "normal" }}>Maximum Temperature:</label>
-                  <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px', marginLeft: "2%", width: '50%', height: '1.8rem', border: "1px solid black" }} type="number" name={`forecast.${index}.temperature_max`} />
+                  <Field className="weather-form input" style={{paddingLeft: '10px', margin: '8px', marginLeft: "2%", width: '30%', height: '1.8rem', border: "1px solid black" }} type="number" name={`forecast.${index}.temperature_max`} />
                   <ErrorMessage name={`forecast.${index}.temperature_max`} component="div" />
                 </div>
                 <div>
                   <label htmlFor={`forecast.${index}.description`} style={{ color: 'black', fontWeight: "normal" }}>Description:</label>
-                  <Field className="weather-form input" style={{paddingLeft: '10px',margin: '8px', marginLeft: "2%", width: '50%', height: '1.8rem', border: "1px solid black" }} type="text" name={`forecast.${index}.description`} />
+                  <Field className="weather-form input" style={{paddingLeft: '10px',margin: '8px', marginLeft: "2%", width: '30%', height: '1.8rem', border: "1px solid black" }} type="text" name={`forecast.${index}.description`} />
                   <ErrorMessage name={`forecast.${index}.description`} component="div" />
                 </div>
-                <div style={{display: 'flex', justifyContent: 'center', marginBottom: '6px'}} >
-                  <button className='weather-form button btn btn-primary btn-sm mx-3 my-3' type="submit" disabled={isSubmitting} style={{margin: "0 auto", padding: "12px 50px"}}>
-                  Submit
-                  </button>
-              </div>
+               
               </div>  
              
     
             ))}
            
+            </div>
+
+
+            <div style={{marginBottom: '6px'}} >
+                  <button className='weather-form button btn btn-primary btn-sm mx-3 my-3' type="submit" disabled={isSubmitting} style={{padding: "12px 50px", 
+                          width: '200px', position: 'absolute', bottom: '240px',  left: '50%',transform: 'translateX(-50%)', zIndex: '1' }}> 
+                          Submit
+                  </button>
             </div>
           </Form>
 
