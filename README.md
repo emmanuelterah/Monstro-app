@@ -2,89 +2,50 @@
 
 This was a group project.  The authors of this project are Emmanuel Nyaanga, Derrick Ndinya, Enoch Kibet, Efjeniah, Edith Chelang'at.
 
+## Background Information on App.
 
-## Weather App Components README
-Overview
-This Weather App is a React-based application designed to provide users with weather information for a selected city. It includes various components for displaying weather data, managing forecasts, and navigating through different sections of the application.
+This weather app is instrumental in providing users with accurate weather information across all available locations. The app has an easy UI feel for all the users as the app is primarily meant to fit the aesthetics of weather hobbyists, tourists, tour companies etc. 
 
-## Components
+This app is pro-active and takes a center forward approach that ensures the users' needs are well taken care of.
 
-WeatherCard.js
-Description
-The WeatherCard component displays current weather information and a 5-day forecast for a selected city. It dynamically updates the weather icon based on the weather description fetched from a local server.
 
-## Dependencies
-React
-useState, useEffect from React
-Weather icons: clear, partlycloudy, cloud, rain, sun
-Fetch API for retrieving weather data
-Usage
-Fetches a list of cities from the server on component mount.
-Allows users to select a city from a dropdown menu.
-Displays current weather information: temperature, weather conditions, humidity, and wind speed.
-Presents a 5-day forecast with date, min and max temperatures, and weather description.
+## Overview
+This Weather App is a React-based application designed to provide users with weather information for a selected city. It includes various components for displaying weather data, managing forecasts, and navigating through different sections of the applications.
 
-WeatherForm.js
-Description
-The WeatherForm component is a Formik-powered form for users to submit weather forecasts for a specific city. It validates input fields, dynamically adds forecast entries, and submits data to the server via a POST request.
+This app offers users the ultimate experience by protecting the user from spammy ads. 
 
-## Dependencies
-React
-Formik, Form, Field, ErrorMessage from 'formik'
-Usage
-Allows users to input city, country, and forecasts (date, min temperature, max temperature, description).
-Validates input fields and displays errors.
-Dynamically adds forecast entries on button click.
-Submits data to the server using a POST request.
+At Monstro, we create Monstro for our people. Our people deserve the best.
 
-NavBar.js
-Description
-The NavBar component serves as the navigation bar, offering links to different sections of the application. It features FontAwesome icons for a visually appealing design.
+Monstro To The World.
 
-## Dependencies
-React
-NavLink from 'react-router-dom'
-FontAwesome icons: faCloudMoon, faCloudSunRain
-Usage
-Displays navigation links to Home, About, and TemperatureConverter sections.
-Stylishly incorporates moon and cloud icons.
+## Components Used.
 
-## App.js
-Description
-The App component is the main entry point for the application. It manages the selectedCity state, handles form submissions, and renders key components for a cohesive user experience.
+- NavBar.js
+- About.js
+- TemperatureConverter.js
+- WeatherComparison.js
+- WeatherCard.js
+- WeatherForm.js
+- BackgroundDisplay.js
 
-## Dependencies
-React
-BackgroundDisplay, WeatherCard, WeatherForm, SearchHistory, TemperatureConverter, About, Home components
-Routes, Route from 'react-router-dom'
-Usage
-Manages the selectedCity state for dynamic content rendering.
-Handles form submissions and fetches weather data based on user input.
-Renders key components, including the navigation bar, background display, weather card, weather form, and search history.
+## Brief Explanations
+Here's a brief explanation of each:
 
-TemperatureConverter.js
-Description
-The TemperatureConverter component allows users to convert temperatures between Celsius and Fahrenheit.
+1. NavBar.js: This file likely contains the code for the navigation bar component of your web application. It typically includes links or buttons for navigating   between different pages or sections of the website.
 
-## Dependencies
-React
-useState from React
-Usage
-Provides input fields for Celsius and Fahrenheit.
-Converts temperatures dynamically as the user types.
+2. About.js: This file probably contains the code for the "About" page or section of your web application. It could include information about the purpose of the application, its creators, or any other relevant details.
 
-BackgroundDisplay.js
-Description
-The BackgroundDisplay component dynamically changes the background image based on the weather conditions of the selected city.
+3. TemperatureConverter.js: This file may contain the code for a component responsible for converting temperatures between different units, such as Celsius, Fahrenheit, or Kelvin. It could be part of a weather-related application or utility.
 
-## Dependencies
-React
-useState, useEffect from React
-Background images: cloud, rain, sun, clear, partlycloudy
-Usage
-Updates the background image based on the weather conditions of the selected city.
-Provides a visually appealing background for the application.
-Instructions for Running the App
+4. WeatherComparison.js: This file likely contains the code for a component that compares weather data between different locations or time periods. It could display charts, graphs, or tables to visualize the comparison.
+
+5. WeatherCard.js: This file probably contains the code for a component that displays weather information for a specific location in a card-like format. It could include details such as temperature, humidity, wind speed, and weather conditions.
+
+6. WeatherForm.js: This file may contain the code for a form component used to input location or search criteria for fetching weather data. Users might enter a city name, ZIP code, or coordinates to retrieve relevant weather information.
+
+7. BackgroundDisplay.js: This file likely contains the code for a component responsible for displaying background images or colors based on weather conditions, time of day, or other factors. It could enhance the visual appeal of the application.
+
+This components are essential in helping us organize and modularize our code for easier development and maintenance.
 
 ## Features
 
@@ -106,7 +67,7 @@ Instructions for Running the App
 
 ## Technologies Used
 
-    Frontend: HTML, CSS, JavaScript (React.js)
+    Frontend: HTML, CSS, React.js.
     Website hosting: Vervel.
     API hosting: Render.
 
@@ -126,7 +87,7 @@ To run the Weather App locally, follow these steps:
     Derrick Ndinya - Developer
     Enoch Kibet - Developer
     Edith Chelang'at - Developer
-    Efjeniah 
+    Efjeniah Mwawughanga - Developer
 
 ## License
 
