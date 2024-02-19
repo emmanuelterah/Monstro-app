@@ -71,10 +71,10 @@ return (
       {selectedCity && (
         <div className='container py-3'>
         <div className='card text-bg-info bg-opacity-10' style={{width: '27rem'}}>
-          <h2 style={{paddingLeft:'75px', paddingRight:'75px', marginTop: '28px', color: '#086868'}}>City Display</h2>
+          <h2 style={{paddingLeft:'80px', paddingRight:'80px', marginTop: '28px', color: '#086868'}}>City Display</h2>
             <img src={icon} className='card-img-top mx-auto px-2 pt-4' style={{width: '22rem',height: '15rem'}} alt='weather'/>
             <div className='card-body'>
-                <h2 className='card-title badge text-info-emphasis py-0 fs-5 mx-4'>{`${selectedCity.name}, ${selectedCity.country}`}</h2>
+                <h2 className='card-title badge text-info-emphasis py-0 fs-5 mx-5'>{`${selectedCity.name}, ${selectedCity.country}`}</h2>
             </div>
             <ul className='list-group list-group-flush'>
           <li className='list-group-item text-bg-info mb-0 bg-opacity-10'>Current Temperature: {selectedCity.current.temperature}°C</li>
