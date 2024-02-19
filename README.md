@@ -1,12 +1,12 @@
 ## Author Name
 
-This was a group project.  The authors of this project are Emmanuel Nyaanga, Derrick Ndinya, Enoch Kibet, Efjeniah, Edith Chelang'at.
+This was a group project.  The authors of this project are Emmanuel Nyaanga, Derrick Ndinya, Enoch Kibet, Efjeniah, and Edith Chelang'at.
 
 ## Background Information on App.
 
-This weather app is instrumental in providing users with accurate weather information across all available locations. The app has an easy UI feel for all the users as the app is primarily meant to fit the aesthetics of weather hobbyists, tourists, tour companies etc. 
+This weather app is instrumental in providing users with accurate weather information across all available locations. The app has an easy UI feel for all users as the app is primarily meant to fit the aesthetics of weather hobbyists, tourists, tour companies, etc. 
 
-This app is pro-active and takes a center forward approach that ensures the users' needs are well taken care of.
+This app is proactive and takes a center-forward approach that ensures the users' needs are well taken care of.
 
 
 ## Overview
@@ -37,7 +37,7 @@ Here's a brief explanation of each:
 
 3. TemperatureConverter.js: This file contains the code responsible for converting temperatures between different units, such as Celsius, Fahrenheit, or Kelvin within our app. It could be part of a weather-related application or utility.
 
-4. WeatherComparison.js: This file contains the code for a component that compares weather data between different locations or time periods.
+4. WeatherComparison.js: This file contains the code for a component that compares weather data between different locations or periods.
 
 5. WeatherCard.js: This file contains the code for a component that displays weather information for a specific location in a card-like format. It includes details such as temperature, humidity, wind speed, and weather conditions.
 
@@ -45,7 +45,7 @@ Here's a brief explanation of each:
 
 7. BackgroundDisplay.js: This file contains the code for a component responsible for displaying background images or colors based on weather conditions, time of day, or other factors. It enhances the visual appeal of the application.
 
-This components are essential in helping us organize and modularize our code for easier development and maintenance.
+These components are essential in helping us organize and modularize our code for easier development and maintenance.
 
 ## Features
 
