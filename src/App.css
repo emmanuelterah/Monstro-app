@@ -6,7 +6,7 @@
 
 .weather-card {
   flex: 1; 
-  margin-right: 20px; 
+  height: 92.6vh;
 }
 
 .weather-form {
