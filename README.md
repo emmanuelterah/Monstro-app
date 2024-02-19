@@ -49,46 +49,46 @@ This components are essential in helping us organize and modularize our code for
 
 ## Features
 
-    Current Weather: View real-time weather conditions, including temperature, humidity, wind speed, and more, for any specified location.
+- Current Weather: View real-time weather conditions, including temperature, humidity, wind speed, and more, for any specified location.
 
-    Weather Forecast: Access hourly and daily forecasts to plan activities or trips accordingly. The forecast includes details such as temperature trends, precipitation probability, and wind direction.
+- Weather Forecast: Access hourly and daily forecasts to plan activities or trips accordingly. The forecast includes details such as temperature trends, precipitation probability, and wind direction.
 
-    Location-based Weather: Get weather updates based on the user's current location, allowing for quick and convenient access to local weather information.
+- Location-based Weather: Get weather updates based on the user's current location, allowing for quick and convenient access to local weather information.
 
-    Search Functionality: Easily search for weather forecasts in any location worldwide. The search feature supports autocomplete to streamline the process of finding specific locations.
+- Search Functionality: Easily search for weather forecasts in any location worldwide. The search feature supports autocomplete to streamline the process of finding specific locations.
 
-    Multiple Locations: Save multiple locations for quick access to weather information for frequently visited or preferred places.
+- Multiple Locations: Save multiple locations for quick access to weather information for frequently visited or preferred places.
 
-    Customization Options: Personalize the app by adjusting settings such as temperature units (Celsius or Fahrenheit), wind speed units, and time formats to suit individual preferences.
+- Customization Options: Personalize the app by adjusting settings such as temperature units (Celsius or Fahrenheit), wind speed units, and time formats to suit individual preferences.
 
-    User-friendly Interface: Enjoy a clean and intuitive user interface with easy-to-navigate menus, clear icons, and minimalistic design for a seamless user experience.
+- User-friendly Interface: Enjoy a clean and intuitive user interface with easy-to-navigate menus, clear icons, and minimalistic design for a seamless user experience.
 
-    Offline Access: Access previously viewed weather data even when offline, ensuring users can check weather forecasts regardless of internet connectivity.
+- Offline Access: Access previously viewed weather data even when offline, ensuring users can check weather forecasts regardless of internet connectivity.
 
 ## Technologies Used
 
-    Frontend: HTML, CSS, React.js.
-    Website hosting: Vervel.
-    API hosting: Render.
+- Frontend: HTML, CSS, React.js.
+- Website hosting: Vervel.
+- API hosting: Render.
 
 ## Installation
 
 To run the Weather App locally, follow these steps:
 
-    Clone the repository: git clone https://github.com/your/repository.git
-    Navigate to the project directory: cd monstro-app
-    Install dependencies: npm install
-    Start the development server: npm start
-    Open your browser and visit http://localhost:3000 to access the Weather App.
+- Clone the repository: git clone https://github.com/your/repository.git
+- Navigate to the project directory: cd monstro-app
+- Install dependencies: npm install
+- Start the development server: npm start
+- Open your browser and visit http://localhost:3000 to access the Weather App.
 
 ## Contributors
 
-    Emmanuel Nyaanga - Scrum Master.
-    Derrick Ndinya - Developer
-    Enoch Kibet - Developer
-    Edith Chelang'at - Developer
-    Efjeniah Mwawughanga - Developer
+1. Emmanuel Nyaanga - Scrum Master.
+2. Derrick Ndinya - Developer
+3. Enoch Kibet - Developer
+4. Edith Chelang'at - Developer
+5. Efjeniah Mwawughanga - Developer
 
 ## License
 
-This project is licensed under the Just React Group.
+- This project is licensed under the Just React Group.
